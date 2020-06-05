@@ -14,6 +14,7 @@ top3dest = flight_df.groupby('Dest').count().reset_index().sort_values(by="Year"
 top3dest.columns=['Dest','Count']
 
 top3dest.to_csv('top3dest.csv', index=False)
+print('kailash')
 
 
 

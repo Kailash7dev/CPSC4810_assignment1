@@ -12,7 +12,7 @@ first3sfo = flight_df[flight_df["Origin"]=="SFO"].loc[:,('ArrDelay', 'Origin')].
 
 first3sfo.to_csv(r'first3sfo.csv', index=False)
 
-
+print('kailash')
 
 
 
